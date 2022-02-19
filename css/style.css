@@ -245,3 +245,21 @@ body{
 .arrow-right{
     transform: translateX(-30px);
 }
+.design__box{
+    max-width: 590px;
+    margin: 150px auto;
+    display: flex;
+    gap:60px;
+    padding: 0 10px;
+}
+.design__box-column{
+    width:255px;
+}
+.design__box-text{
+    margin-bottom: 15px;
+}
+.design__img{
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
