@@ -45,6 +45,9 @@ body{
 .list{
     display: flex;
 }
+.header__logo{
+    margin-left: 115px;
+}
 .list__item +.list__item{
     margin-left: 30px;
 }
@@ -155,4 +158,38 @@ body{
 .premier__btn:hover{
     color:#53A1CB;
     border: 1px solid #53A1CB;
+}
+.video{
+    margin-bottom: 150px;
+}
+.video__img{
+    margin-bottom: 25px;
+}
+.video__btn{
+    font-family: 'Corporate-A-Bold',sans-serif;
+    display: flex;
+    border: 1px solid #F402A2;
+    font-size: 18px;
+    justify-content: center;
+    gap:10px;
+    width: 100%;
+    align-items: flex-end;
+    color: #F402A2;
+    text-transform: uppercase;
+    padding: 14px;
+    line-height: 120%;
+    transition: all .3s;
+}
+.video__btn span{
+    padding-top: 2px;
+}
+.video__btn:hover{
+    color:#53A1CB;
+    border: 1px solid #53A1CB;
+}
+.video__btn path{
+    transition: all .3s;
+}
+.video__btn:hover path{
+    fill:#53A1CB;
 }
